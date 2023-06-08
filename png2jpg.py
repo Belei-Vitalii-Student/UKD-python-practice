@@ -46,6 +46,6 @@ else:
     new_image = image.convert('RGB')
     new_image.save(FORMATED_NAME)
 
-    print(colored('Successefully converting | 🖼️  | Created new file {}{}'.format(FORMATED_NAME), 'green'))
+    print(colored('Successefully converting | 🖼️  | Created new file {}'.format(FORMATED_NAME), 'green'))
 
 print('=====\t=====\t=====\t=====\t=====\t=====\t=====\t=====\t=====\t=====\t=====\t=====\t=====\t=====\t')
